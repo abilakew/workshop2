@@ -10,7 +10,7 @@ services:
     expose:
       - 8000
     environment:
-      - DB_NAME=nc_tutorials_db
+      - DB_NAME=nctutorialsdb
       - DB_USER=postgres
       - DB_PASSWORD=admin123
       - DB_HOST=nctutorialsdb.c30eu8u4s57v.us-east-1.rds.amazonaws.com
@@ -30,4 +30,3 @@ services:
 volumes:
   static_volume:
 
-  
